@@ -6,3 +6,15 @@ header h1 {
 hr {
 	margin: 3rem auto;
 }
+
+#projects > h2 {
+	padding-top: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 1.2rem;
+}

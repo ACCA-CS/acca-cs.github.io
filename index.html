@@ -94,24 +94,17 @@
 			<h2>Judging Criteria</h2>
 			<ul>
 				<li>
-					Functionality: Does the solution meet the task
-					requirements?
+					Features that teams implement have been
+					catagorized into three types: Easy, worth one
+					point each, Medium, worth three points each, and
+					Hard, worth six points each. At the end of the
+					competition, judges will evaluate the
+					implementations and award points. The team with
+					the most points will win first place, the team
+					with the second most will win second place, and
+					the team with the third most points will win third
+					place.
 				</li>
-				<li>Creativity: How innovative is the solution?</li>
-				<li>Efficiency: How well is the code optimized?</li>
-				<li>
-					Presentation: Clarity of documentation and ease of
-					use.
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h2>Prizes</h2>
-			<ul>
-				<li>Best Overall Project</li>
-				<li>Most Innovative Solution</li>
-				<li>Best Presentation</li>
 			</ul>
 		</section>
 
@@ -147,35 +140,42 @@
 			</p>
 		</section>
 		<hr />
-		<section>
+		<section id="projects">
 			<h1>Projects</h1>
-			<h2>Rocket Chat</h2>
+			<h2>
+				<a
+					href="https://github.com/RocketChat/Rocket.Chat/blob/develop/README.md"
+					target="_blank"
+					>Rocket Chat</a
+				>
+			</h2>
 			<h3>Easy:</h3>
 			<ul>
-				<li>Any Custom Status Message</li>
 				<li>
-					Add Predefined Emoji Status: Extend the custom
-					status feature by allowing users to select an
-					emoji as a part of their status message. This
-					likely involves a minor adjustment to the UI
-					component handling statuses.
+					Any Custom Status Message: Modify the pre-existing
+					status message into a custom message, that would
+					contain an emoji as a part of it.
 				</li>
 				<li>
 					Enlarge Font Size Option for Chat: Implement a
-					feature that allows users to increase the font
-					size in a chat room for better readability. This
-					would require a small UI change and possibly
-					storing the user's preference.
+					feature that changes the default project font size
+					in a chat room for better readability.
 				</li>
-				<li>Customizable Chat Notification Sounds</li>
+				<li>
+					Customizable Chat Notification Sounds: Adding,
+					thus, changing one of the inbuild notification
+					sounds to a custom one.
+				</li>
 				<li>
 					Direct Message Read Receipts Toggle: Add an option
-					for users to enable or disable read receipts in
-					direct messages. This requires a minor change to
-					the user settings UI and possibly a condition in
-					the message display logic.
+					for users to enable or disable read receipts
+					specifically for some messages.
 				</li>
-				<li>Theme Color Preview</li>
+				<li>
+					Theme Color Preview: create a logic where chat’s
+					color is set based on chat’s name. i.e. Name is
+					Defining the chat color.
+				</li>
 			</ul>
 			<h3>Medium:</h3>
 			<ul>
@@ -221,30 +221,63 @@
 					analysis).
 				</li>
 				<li>
-					Real-time Translation of Messages: Offer real-time
-					translation of chat messages into the user's
-					preferred language.
+					Language Learning Capabilities based on
+					translations: There is a capability for
+					translation of messages. But task is to implement
+					the capability where user would be able to learn a
+					new language, e.g. only partially translate
+					messages, where translated text amount is reduced
+					over time, likewise, create a mechanics for it.
+					(I.e. initially, simple words are not translated,
+					and with time more and more of them are not being
+					translated, as time goes and number of
+					non-translated text increases and, the difficulty
+					– word complexity, would also increase, meaning
+					more complicated words are not translated are also
+					not being translated.)
 				</li>
-				<li>End-to-End Encryption for Private Chats:</li>
+				<li>
+					End-to-End Encryption for Private Chats: Allow
+					user to upload a custom key, e.g. custom RSA key
+					and be able to use it instead for encryption.
+				</li>
 				<li>
 					Peer-to-Peer (P2P) File Sharing in Chat Rooms:
 					Enable direct file sharing between users within a
 					chat room without uploading to the server
 				</li>
+
+				<li>
+					Enhanced Security for Sensitive Messages:
+					Implement a feature to mark message as
+					“sensitive”, thus encrypting them in a way that
+					only for a given user can read them, while others,
+					might see just a scrambled text.
+				</li>
+				<li>
+					Privacy-Enhanced Messaging Mode: mode that would
+					hide the message until it is being clicked or
+					hovered over, and would be deleted after some set
+					time.
+				</li>
 			</ul>
-			<h2>FreeCiv</h2>
+			<h2>
+				<a href="https://www.freeciv.org/" target="_blank"
+					>FreeCiv</a
+				>
+			</h2>
 			<h3>Easy:</h3>
 			<ul>
 				<li>
-					Add a New Unit Type: Create a simple new unit type
-					(e.g., a unique scout with slightly altered stats
-					from existing units)
+					Add a New Unit Type: Create a simple new unit
+					type, which would be integrated into one of the
+					cultures, or be generic for all (e.g., a unique
+					scout with slightly altered stats from existing
+					units)
 				</li>
 				<li>
 					Modify Unit Cost: Change the resource cost of
-					producing a unit, affecting game balance. This
-					task would require altering a few lines in the
-					unit definitions file.
+					producing a unit.
 				</li>
 				<li>
 					Introduce a New Building Bonus: Add a small bonus
@@ -266,9 +299,11 @@
 			<h3>Medium:</h3>
 			<ul>
 				<li>
-					Custom Maps Editor Interface: Enhance the map
-					editor with additional features or a more
-					user-friendly interface for designing custom maps.
+					Custom automation: Game has some automation
+					features. Existing features: auto explore, auto
+					work. New feature could be, automatic city
+					development, or have auto defense/attack when
+					enemy unit is discovered.
 				</li>
 				<li>
 					Implement a New Resource Type: Introduce a new
@@ -293,13 +328,24 @@
 			<h3>Hard:</h3>
 			<ul>
 				<li>
+					Create a simple Map Editor for FreeCiv-web: Create
+					a new “Map Editor” option next to “Start Game” and
+					“Load Game”, which would allow to do some editing
+					to maps.
+				</li>
+				<li>
+					Create a new Civilization: It need to have a
+					different technology tree, and various units and
+					buildings.
+				</li>
+
+				<li>
 					Dynamic Weather System: Implement a dynamic
 					weather system affecting unit movement and combat,
-					resource production, and map visibility. This
-					feature demands substantial changes in game
-					mechanics, including backend logic for weather
-					effects and frontend updates for visual
-					representation.
+					resource production, and map visibility. Create
+					environmental effects, e.g. rain slows down units,
+					ground tiles may reduce some unit parameters, or
+					some cultures gain environmental benefits.
 				</li>
 				<li>
 					Advanced Modding Support: Develop a comprehensive
@@ -330,28 +376,32 @@
 				</li>
 			</ul>
 
-			<h2>AR-Toolbox</h2>
+			<h2>
+				<a
+					href="https://github.com/SimonMarquis/AR-Toolbox/blob/master/README.md"
+					target="_blank"
+					>AR-Toolbox</a
+				>
+			</h2>
 
 			<h3>Easy:</h3>
 			<ul>
 				<li>
-					Change the default for newly placed objects.
+					Change the default model: Change the default first
+					object that is chosen and placed.
 				</li>
 				<li>
 					Increase Text Size in UI: Adjust the default font
 					size for all text elements in the UI to enhance
 					readability.
 				</li>
+
 				<li>
-					Increase Recording Quality: Change the default
-					setting for screen capture from 480p to 720p,
-					which would involve updating a constant in the
-					configuration file.
-				</li>
-				<li>
-					Set Default Colour for All objects: Altering a
+					Set Default Color for All objects: Altering a
 					default color variable that is applied to new
-					objects.
+					objects. (Even when another object is selected to
+					be placed its default initial color need to be
+					custom, without user setting it)
 				</li>
 				<li>
 					Increase the icon size: objects that user chooses
@@ -384,21 +434,9 @@
 					selected 3D models.
 				</li>
 				<li>
-					Performance Tuning Settings: Provide advanced
-					settings that allow users to optimize performance
-					by adjusting the fidelity of textures or the
-					complexity of shaders.
-				</li>
-				<li>
 					Object Grouping Feature: Allow users to group
 					multiple objects together so they can be moved or
 					modified all together.
-				</li>
-				<li>
-					Augmented Reality Instruction Overlay: Create an
-					overlay that provides users with on-screen
-					guidance or instructions for using the app's
-					features.
 				</li>
 			</ul>
 
@@ -432,6 +470,12 @@
 					by specific events or conditions, such as an
 					object that changes color when another object
 					comes close.
+				</li>
+				<li>
+					Performance Tuning Settings: Provide advanced
+					settings that allow users to optimize performance
+					by adjusting the fidelity of textures or the
+					complexity of shaders.
 				</li>
 			</ul>
 		</section>
